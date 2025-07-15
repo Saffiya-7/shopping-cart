@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+.container {
+    width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}

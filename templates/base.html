@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Simple Shopping Cart</h1>
+        <a href="{{ url_for('index') }}">Home</a> |
+        <a href="{{ url_for('cart') }}">View Cart 🛍️</a>
+        <hr>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
